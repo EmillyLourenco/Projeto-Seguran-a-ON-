@@ -1,0 +1,100 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia;
+  background-color: #333; /* Fundo preto */
+  color: #fff; /* Texto branco */
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #000; /* Fundo preto */
+  color: #00ff00; /* Texto verde */
+  padding: 20px 0;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #00ff00; /* Links verdes */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #0f0; /* Links mais claros ao passar o mouse */
+}
+
+main {
+  padding: 40px 0;
+}
+
+section {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1.1rem;
+}
+
+.video {
+  margin-bottom: 20px;
+}
+
+.video iframe {
+  width: 100%;
+  height: 315px;
+}
+
+footer {
+  background-color: #000; /* Fundo preto */
+  color: #00ff00; /* Texto verde */
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  /* Estilos para telas menores */
+  header nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .video iframe {
+    height: 200px; /* Reduz a altura dos vídeos em telas menores */
+  }
+}
+.expandido {
+  width: 100%;
+}
+
+.expandido iframe {
+  height: 500px;
+}

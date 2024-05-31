@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Segurança ON!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Segurança ON!</h1>
+      <nav>
+        <ul>
+          <li><a href="#introducao">Introdução</a></li>
+          <li><a href="#videos">Vídeo Aulas</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="introducao" class="black">
+      <div class="container">
+        <h2>Introdução</h2>
+        <p>Seja bem-vindo ao projeto Segurança ON! Aqui você encontrará recursos e informações para ajudá-lo a usar a
+          tecnologia de maneira segura. Nós acreditamos que todos têm o direito de se sentir protegidos enquanto navegam
+          na internet e queremos ajudar a tornar isso uma realidade.</p>
+      </div>
+    </section>
+
+    <section id="videos">
+      <div class="container">
+        <h2> Workshop </h2>
+        <h3> Ameaças a segurança digital </h3>
+        <div class="video" onclick="expandirVideo(this)">
+          <iframe  class="expandindo" width="560" height="315" src="./assets/Ameaças .mp4" frameborder="0" allowfullscreen></iframe>
+          <h3>Medidas práticas de segurança</h3>
+        </div>
+        <div class="video" onclick="expandirVideo(this)">
+          <iframe width="560" height="315" 
+            src="./assets/Medidas práticas de segurança.mp4"
+            allowfullscreen></iframe>
+          <h3>Smartphone seguro</h3>
+        </div>
+        <div class="video" onclick="expandirVideo(this)">
+          <iframe width="560" height="315" src="./assets/Smartphone seguro.mp4" frameborder="0"
+            allowfullscreen></iframe>
+          <h3>Compras Online</h3>
+        </div>
+        <div class="video" onclick="expandirVideo(this)">
+          <iframe width="560" height="315" src="./assets/Compra online segura.mp4"  frameborder="0"
+            allowfullscreen></iframe>
+        </div>
+        <!-- Adicione mais vídeos conforme necessário -->
+      </div>
+    </section>
+
+    <section id="sobre" class="black">
+      <div class="container">
+        <h2>Sobre</h2>
+        <p>O projeto Segurança ON! foi iniciado por Emilly Lima, estudante da Universidade Cruzeiro do Sul, com o
+          objetivo de promover a conscientização sobre a segurança online. Se você tiver alguma dúvida ou sugestão,
+          entre em contato conosco pelo e-mail: emillylimarh@gmail.com </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Segurança ON!. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
